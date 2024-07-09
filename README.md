@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Overview of the App
+This React app is designed to manage and display a list of bikes. It includes features such as fetching bike data from a JSON file, displaying the data in a table, and allowing users to search and filter the bikes based on various criteria. The app is built using TypeScript to ensure type safety and improve code quality. This uses Typescript and React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Key Features
+Data Fetching: The app fetches bike data from a JSON file located in the public directory and displays it in a table.
+Data Display: The table component displays various attributes of each bike, such as ID, Make, Model, Year, Displacement, Price, Terrain, and Description.
+Search and Filter: Users can search and filter the bike data based on different criteria such as ID, Make, Model, Year, etc.
+Responsive UI: The app is designed to be responsive and user-friendly, ensuring a good user experience on different devices.
+How to Get Started
+Prerequisites
+Ensure you have Node.js and npm (Node Package Manager) installed on your machine. You can download them from Node.js official website.
 
-## Available Scripts
+## Installation
+Clone the repository:
+git clone https://github.com/your-username/your-repo.git
 
-In the project directory, you can run:
+### Navigate to the project directory:
+cd your-repo
 
-### `npm start`
+### Install dependencies:
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Running the App
+Start the development server:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+npm start
+This command runs the app in development mode. Open http://localhost:3000 in your browser to view it. The page will reload if you make any edits, and you will see lint errors in the console.
+Running Tests
+Launch the test runner:
 
-### `npm test`
+npm test
+This command launches the test runner in interactive watch mode. For more information on running tests, refer to the running tests section of the Create React App documentation.
+Building for Production
+Build the app:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm run build
+This command builds the app for production, creating an optimized build in the build folder. The build is minified, and the filenames include the hashes. Your app is ready to be deployed! For more details on deployment, refer to the deployment section of the Create React App documentation.
+Customizing the Configuration
+If you need to customize the configuration (e.g., webpack, Babel, ESLint), you can eject the app. Note that this is a one-way operation, and once you eject, you cannot go back.
 
-### `npm run build`
+Eject the app:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm run eject
+This command will remove the single build dependency from your project, copying all the configuration files and transitive dependencies directly into your project. After ejecting, you will have full control over the configuration.
+Learning More
+To learn more about Create React App and React, refer to the following resources:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create React App Documentation
+React Documentation
+These resources provide comprehensive guides and tutorials to help you get the most out of Create React App and React.
