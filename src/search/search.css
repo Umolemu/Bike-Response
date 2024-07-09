@@ -1,0 +1,30 @@
+button::after {
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  color: #555555;
+  height: 100%;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  font-weight: bold;
+  position: relative;
+  margin: 24px;
+  height: 40px;
+  width: 160px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: linear-gradient(to top, #AEAEAE, #C4C4C4 48%, #D5D5D5 52%, #E1E1E1);
+  border: 1px solid #8C8C8C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px 0 #616161, 0 0 0 4px #CBCBCB, 0 0 0 5.5px #FFFFFF, 0 0 0 7px #555555;
+}
