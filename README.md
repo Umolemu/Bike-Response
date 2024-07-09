@@ -12,18 +12,28 @@ Ensure you have Node.js and npm (Node Package Manager) installed on your machine
 
 ## Installation
 Clone the repository:
+
+```bash
 git clone https://github.com/your-username/your-repo.git
+```
 
 ### Navigate to the project directory:
+
+```bash
 cd your-repo
+```
 
 ### Install dependencies:
+```bash
 npm install
+```
 
 ### Running the App
 Start the development server:
-
+```bash
 npm start
+```
+
 This command runs the app in development mode. Open http://localhost:3000 in your browser to view it. The page will reload if you make any edits, and you will see lint errors in the console.
 Running Tests
 Launch the test runner:
