@@ -48,13 +48,11 @@ This command builds the app for production, creating an optimized build in the b
 Customizing the Configuration
 If you need to customize the configuration (e.g., webpack, Babel, ESLint), you can eject the app. Note that this is a one-way operation, and once you eject, you cannot go back.
 
-Eject the app:
+### Eject the app:
 
+```bash
 npm run eject
-This command will remove the single build dependency from your project, copying all the configuration files and transitive dependencies directly into your project. After ejecting, you will have full control over the configuration.
-Learning More
-To learn more about Create React App and React, refer to the following resources:
+```
 
-Create React App Documentation
-React Documentation
-These resources provide comprehensive guides and tutorials to help you get the most out of Create React App and React.
+This command will remove the single build dependency from your project, copying all the configuration files and transitive dependencies directly into your project. After ejecting, you will have full control over the configuration.
+
